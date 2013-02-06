@@ -1,0 +1,24 @@
+
+body {
+  width: 960px;
+  margin: 0 auto;
+
+
+}
+
+#container {
+  position: relative;
+  top: 20px;
+  width: 940px;
+  min-height: 500px;
+  text-align: center;
+  border: 1px solid purple;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+

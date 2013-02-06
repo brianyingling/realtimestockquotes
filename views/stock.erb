@@ -1,0 +1,14 @@
+<div id="stockform">
+<section>
+      <form method='get' action='/quote'>
+        <fieldset>
+         <div><label for="get_quote">Type in a Quote</label></div>
+         <input type="text" name="symbol"/>
+         <button>Go!</button>
+        </fieldset>
+      </form>
+</section>
+<section>
+      <%= @symbol %> is currently trading at <%= @price %> per share.
+</section>
+</div>
